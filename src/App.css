@@ -1,0 +1,116 @@
+html, body {
+  position: absolute;
+  width: 100%;
+  min-width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #282c34;
+}
+
+.App {
+  padding: 2%;
+  text-align: center;
+  height: inherit;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.home {
+  padding-top: 10vh;
+}
+.home p{
+  font-size: 1.5em;
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 5vh;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-right{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  padding-left: 5vh;
+}
+
+.link{
+  text-decoration: none;
+  color:white;
+}
+.flex{
+  display: flex;
+  flex: 1;
+}
+.flex-center{
+  justify-content: center;
+}
+.accordion{
+  width: 50vh;
+  margin-top: 5vh;
+}
+.flatpickr-input{
+  max-height: 15px;
+}
+.flex-row-start{
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+.flatpickr-input{
+  width: 250px;
+  height: 40px;
+  padding: 15px;
+}
+.p-10{
+  padding: 10px;
+}
+.nation-select{
+  width: 40%;
+}
+
+@media (max-width: 770px) {
+  .nation-data-box{
+    margin-right: 0px !important;
+  }
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.MuiDrawer-paper{
+  width: 50%;
+}
